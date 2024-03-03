@@ -1,0 +1,328 @@
+    
+
+
+    body{
+    padding: 0px;
+    margin-left: 40px;
+    background-image: url('img4.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    a.btn{
+        color: white;
+        border: 1 px solid #000;
+        padding: 2px;
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    /*home page css*/
+    h1 {
+        font-size: 36px; 
+        font-family: Arial, sans-serif; 
+        color: #9eed9c; 
+        text-align: center; 
+        background-color: rgba(66, 80, 76, 0.513); 
+        padding: 20px;
+         
+        
+        }
+    h2{
+        font-size: 25px; 
+        font-family: Arial, sans-serif; 
+        color: #085906; 
+        text-align: left; 
+        padding: 20px;
+        
+    }
+    .highlight {
+        background-color: rgba(132, 190, 121, 0.572); 
+        font-size: 30px;
+        padding: 0 5px; 
+    }
+    
+    
+    
+    /*home page end*/
+
+
+
+    .main-slide {
+        opacity: 80%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 100%;
+        padding-right: 20px;
+        
+        background-color: rgb(66, 76, 80);
+
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 0px 0px 10px;
+        box-shadow: rgb(66, 76, 79);
+
+        overflow: hidden;
+
+        white-space: nowrap;
+        
+        transition: ease-in-out;
+        transition-duration: .2s;
+
+        }
+    .main-slide:hover{
+        width: 170px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+/*Side bar content Style*/
+            .slide-item{
+                list-style: none;
+                font-weight: bold;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                text-align: left;
+            }
+
+            .main-slide .slide-item{
+                padding: 10px;
+
+            }
+            .main-slide .slide-item:hover{
+                background-color: rgb(146, 167, 173);
+                cursor: pointer;
+                border-radius: 10px;
+            }
+
+/*for the menu button*/
+            .btn{
+                text-decoration: none;
+                color: black;
+            }
+
+/*for the icons*/
+            h3{
+                display: flex;
+                padding-right: 40px;
+            }
+            .icon-ul{
+                padding-left: 0px;
+            }
+            
+            .icon{
+                display: flex;
+                flex-direction: row;
+                height: min-content;
+                justify-content: flex-end;
+                width: 100%;
+                right: 0%;
+            }
+            .icon-link{
+                padding: 10px;
+            }
+    
+/*for Enrollment page*/
+                       
+            .square1 form {
+                width: 100%; 
+                height: 100%; 
+                display: flex; 
+                flex-direction: column; 
+                justify-content: center; 
+                }
+            .input{
+                background-color: rgb(200, 219, 223);
+                border-radius: 60px;
+                border-style: groove;
+                border-color: rgb(216, 246, 218);
+                height: auto;
+                font-size: 18px;
+                margin-top: 0%;
+            }
+            .heading{
+                border: 2px solid;
+                border-radius: 20px;
+                border-color: rgb(146, 167, 173);
+            }
+            button{
+                width: auto;
+                margin: auto;
+                justify-content: center;
+                padding-left: 1.4rem;
+                padding-right: 1.4rem;
+                background: #673de6;
+                color: white;
+
+            }
+            .square1 {
+                margin-top: 180px;
+                margin-bottom: 60px;
+                min-width: 500px;
+                background-color: #cee6d1; 
+                border: 1px solid #ccc; 
+                padding: 10px;    
+                font-size: 20px;
+            }
+
+            .square1 button {
+                padding: 6px 12px;
+                transition: all 0.25s ease-in-out;
+            }
+
+            .square1 button:hover {
+                background-color: #422892;
+            }
+
+            .square1 form select {
+                font-size: 18px
+            }
+
+            .square1 form input {
+                padding-left: 12px;
+            }
+
+
+/* contact Page */
+
+            .selfi{
+                display: flex;
+                justify-content: center;
+                height: 100vh;
+                align-items: center ;
+                flex-wrap: wrap;
+            }
+            
+            .selfi div{
+                border: px #ccc solid;
+                padding: 45px;
+                
+                
+            }
+            
+            .dropdown-Neeraj {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 140px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .dropdown-Neeraj a {
+                color: black;
+                padding: 14px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            .dropdown-Neeraj a:hover {
+                background-color: #ddd;
+            }
+            .Neeraj:hover .dropdown-Neeraj {display: block;}
+            
+            .Neeraj:hover .foto {background-color: #3e8e41;}
+            
+            .Kareena div{
+                border: px #ccc solid;
+                padding: 45px;
+                          
+              }
+            .dropdown-Kareena {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 140px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .dropdown-Kareena a {
+                color: black;
+                padding: 14px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            .dropdown-Kareena a:hover {
+                background-color: #ddd;
+            }
+            .Kareena:hover .dropdown-Kareena {display: block;}
+            
+            .Kareena:hover .foto {background-color: #3e8e41;}
+               
+            
+            .foto{
+                border-radius: 100%;
+                height: 110px;
+                width: 110px;              
+                
+            }
+ 
+
+            .social-logo{
+                height: 20px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                padding-left: 0px;
+                padding-right: 10px;
+                margin: 0%;
+            }
+    /* contact page end */
+
+
+    /* square */
+    .s-container {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        height: 56vh; 
+        
+        
+    }
+    .s-container + .s-container {
+        margin-top: 0px; 
+        margin-bottom: 0px;
+    }
+    .square {
+        width: 400px; 
+        height: 290px; 
+        background-color: #f0f0f0; 
+        border: 1px solid #ccc; 
+        padding: 10px; 
+        text-align: center;
+        font-size: 38px;
+        display: inline-block;
+        margin: 20px;
+        transition: background-color 0.3s ease; 
+    }
+    .square img {
+        max-width: 100%; 
+        max-height: 100%;
+        height: 235px; 
+        width: 390px;
+    }
+    .square p {
+        margin: 0; 
+    }
+    .square:hover {
+        background-color: #4cbc62; 
+    }
+/* Embed css */
+
+#yt-embed {
+    min-width: 40%;
+    aspect-ratio: 16/9;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.flex p {
+    min-width: 600px;
+}
